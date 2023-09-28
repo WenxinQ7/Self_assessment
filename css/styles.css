@@ -1,0 +1,95 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.row1 .box {
+  border: 4px solid red;
+  margin: 10px;
+  padding: 5px;
+}
+
+.row2 .box {
+  border: 6px solid blue;
+  margin: 15px;
+  padding: 8px;
+}
+
+.row3 .box {
+  border: 2px solid green;
+  margin: 5px;
+  padding: 2px;
+}
+
+.col1 .box {
+  margin: 0px 5px 10px;
+}
+
+.col2 .box {
+  margin: 0px 10px 15px;
+}
+
+.col3 .box {
+  margin: 0px 15px 20px;
+}
+
+.creative-section {
+  position: relative;
+  height: 400px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #ff5733;
+  width: 100px;
+  height: 100px;
+}
+
+.relative-box {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  background-color: #33ff57;
+  width: 100px;
+  height: 100px;
+}
+
+.fixed-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #5733ff;
+  width: 100px;
+  height: 100px;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 200px;
+  right: 20px;
+  background-color: #57ff33;
+  width: 100px;
+  height: 100px;
+}
